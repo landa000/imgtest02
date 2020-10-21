@@ -1,7 +1,7 @@
 /* twosome_main_headBox.css */
 
-#headBox { float:left; width:100%; height:75px; 
-  position:fixed; z-index:1000; top:0; left:0;
+#headBox {  position:fixed; z-index:1000; top:0; left:0;
+  width:100%; height:75px; 
   padding-top:10px;  box-sizing: border-box;
   background-color: #000;}
 
@@ -12,6 +12,8 @@
   position:absolute; top:10px; left:0;
   background-image: url("../../../../img/twosome_main_logo.png");
   background-repeat: no-repeat; background-size: contain;}
+
+.logo a { display:block; width:100%; height: 100%; cursor: pointer;}
 
 .globalNavBox { float:left; width:500px; height:auto;
   position:absolute; top:15px; left:450px;}

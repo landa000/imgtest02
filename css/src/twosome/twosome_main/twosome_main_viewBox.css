@@ -4,17 +4,18 @@
   position:relative; padding-top:75px; box-sizing:border-box;
   background-color: #dfd;}
 
-.view_btb { position:absolute;}
+.view_btn { position:absolute;}
 
 .view_indi { position:absolute; top:800px; right:0; left:0; z-index:400;
     width:312px; height:auto; margin:auto;}
-.view_indi li { float:left; width:18px; height:18px; margin: 0 20px;}
-.view_indi a { position: relative; border-radius:9px;
-  background-color: #bbb;}
+.view_indi li { float:left; width:18px; height:18px; margin: 0 20px;
+  border-radius:9px; background-color: #bbb;}
 
-.view_outer { width:100%; height:780px; margin:auto; position:relative;}
+.view_outer { position:relative;
+  width:100%; height:780px; margin:auto;
+  overflow:hidden;}
 .view_area { width:450%; height:100%;}
 .view_area > li { float:left; width:1920px; height:780px; margin:auto;}
 .view_area:nth-child(1) li a { background-repeat: no-repeat;
-  background-size: auto;
+  background-size: auto; background-position: 0 0;
   background-image: url("../../../../img/main_view/view_01.png");}
