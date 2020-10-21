@@ -1,0 +1,24 @@
+/* twosome_main_appBox.css */
+
+#appBox { width:100%; height:240px; margin:auto;
+  background-color: #333;}
+
+.app_wrap { width:1140px; height:100%; margin:auto;
+  padding-top:30px; box-sizing: border-box;}
+  .app_img_area { float:left; width: 180px; height:180px;
+  background-color:#c35; }
+  .app_text_area { float:left; width: 620px; height:120px;
+    margin:40px 0 0 50px;
+    color: #fff;}
+  .app_text_area p { margin-top:10px; font-size:15px;}
+
+  .app_link { float:right; width:180px; height:130px;
+    margin-top:25px;}
+  .app_link a { float:left; width:100%; height:60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom:10px;}
+  .app_link a:nth-child(1) { 
+    background-image: url("../../../../img/main_view/app_google.png");}
+  .app_link a:nth-child(2) { margin:0;
+  background-image: url("../../../../img/main_view/app_apple.png");}

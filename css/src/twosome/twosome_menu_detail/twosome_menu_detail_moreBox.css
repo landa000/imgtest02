@@ -1,0 +1,14 @@
+/* twosome_menu_detail_moreBox.css */
+
+#moreBox { width:100%; height:auto;}
+
+.more_wrap {width:800px; height:250px; margin:auto; padding-top:20px;
+  box-sizing: border-box;}
+
+.more_wrap > h4 { margin-bottom:20px;}
+
+.more_menu { width: 100%; height:auto;}
+  .more_menu ul { padding:0 20px;}
+  .more_menu ul li { float:left; width: 130px; height:140px;
+    background-color: #eee; margin-right:27px;}
+  .more_menu > ul > li:last-child { margin:0;}

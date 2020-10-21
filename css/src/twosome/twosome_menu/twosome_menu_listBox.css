@@ -1,0 +1,43 @@
+/* twosome_menu_menuBox.css */
+
+#listBox { width:100%; height:auto; position:relative;
+  padding-top:60px; box-sizing: border-box;}
+
+.list_wrap { width:1160px; height:auto; margin:auto;
+  padding-bottom:80px; box-sizing: border-box;}
+
+.list_area { width:1160px; height:auto;}
+
+.list_area li { float:left; width:270px; height:340px;
+  margin:0 10px 60px 10px;}
+
+.list_area li a { display:block; width:270px; height:270px;
+  background-repeat: no-repeat; background-size: contain;
+  background-color: #599;}
+  .list_area li:nth-of-type(01) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_01.jpg");}
+  .list_area li:nth-of-type(02) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_02.jpg");}
+  .list_area li:nth-of-type(03) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_03.jpg");}
+  .list_area li:nth-of-type(04) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_04.jpg");}
+  .list_area li:nth-of-type(05) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_05.jpg");}
+  .list_area li:nth-of-type(06) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_06.jpg");}
+  .list_area li:nth-of-type(07) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_07.jpg");}
+  .list_area li:nth-of-type(08) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_08.jpg");}
+  .list_area li:nth-of-type(09) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_09.jpg");}
+  .list_area li:nth-of-type(10) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_10.jpg");}
+  .list_area li:nth-of-type(11) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_11.jpg");}
+  .list_area li:nth-of-type(12) a { background-image: url("../../../../img/menu_thumbnail/menu_thumb_12.jpg");}
+
+.menu_name_area { width:100%; height:70px; padding-top:20px; box-sizing:border-box;
+  text-align:center; font-weight:600px;}
+
+.list_menu_img
+  {width:270px; height:270px; background-repeat: none; background-size: contain;}
+
+.list_nav_wrap { position:relative; width:400px; height:30px; margin:auto;}
+  .next_btn { float: right; width:30px; height:100%;}
+  .prev_btn { float: left; width:30px; height:100%;}
+
+.list_indi { float:left; margin-left:135px; width:90px; height:auto;}
+  .list_indi li { float:left; width:30px; height:30px; margin:auto;}
+  .list_indi li p { text-align:center;}
+  .list_indi li a { display:block; width:15px; height:15px; }

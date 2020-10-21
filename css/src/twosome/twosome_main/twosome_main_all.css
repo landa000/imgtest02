@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* twosome_main_all.css */
+
+/* import */
+
+@import url("./twosome_main_wrap.css");
+@import url("./twosome_main_headBox.css");
+@import url("./twosome_main_viewBox.css");
+@import url("./twosome_main_newBox.css");
+@import url("./twosome_main_submenuBox.css");
+@import url("./twosome_main_appBox.css");
+@import url("./twosome_main_snsBox.css");
+@import url("./twosome_main_footBox.css");

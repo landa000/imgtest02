@@ -1,0 +1,25 @@
+/* twosome_main_submenuBox.css */
+
+#submenuBox { width:100%; height:auto;}
+
+.sub_wrap { width: 960px; height:550px; margin:auto;
+  border-top:1px solid #bbb;
+  padding:50px 30px 0; box-sizing: border-box;}
+
+.sub_wrap li { border:0.5px solid #ddd; 
+  padding:20px 20px 0; box-sizing: border-box;}
+  .sub_01 { float:left; width: 280px; height: 450px;
+    position:relative;
+    background-color: #fff; }
+  .sub_02 { float:right; width: 580px; height: 200px;
+    position:relative;
+    margin:10px 0 20px 0; background-color: #fff;}
+
+  .sub_icon_area_01 { width:240px; height:240px;
+    background-color: #dfd;}
+  .sub_icon_area_02 { width:160px; height:160px;
+    background-color: #dfd;}
+
+  .sub_wrap button { width:64px; height:64px; border-radius:32px; background-color: #a46;}
+  .sub_01 button { position: absolute; bottom:20px; right:20px;}
+  .sub_02 button { position: absolute; bottom:68px; right:20px;}
