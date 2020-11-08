@@ -5,14 +5,29 @@
 .newBox_wrap { width: 1000px; height: auto; margin: auto;
   position: relative; padding:80px 0 80px; box-sizing:border-box;}
 
-.new_title { width:100%; height: 50px;}
-.new_title h2 { text-align:center;}
+#newBox h2 { width:100%; height: 50px; text-align:center; margin-bottom:50px;}
 
 .new_menu { width:1000px; height:auto; padding-left:85px; }
-.new_menu ul li { float:left; width: 220px; height: 300px; margin-right:80px;
-  background-color: #888; }
+.new_menu ul li { float:left; width: 220px; height: 300px; margin-right:80px; }
 
-.new_indi { position:absolute; top:480px; right:0; left:0;
+.new_img_area { width:100%; height:220px;}
+.new_img_area a { display:block; width:100%; height:100%;
+  background-size: contain; background-repeat: no-repeat;}
+
+.new_menu li:nth-child(1) .new_img_area a
+{ background-image: url("../../../../img/menu_thumbnail/menu_thumb_01.jpg");}
+.new_menu li:nth-child(2) .new_img_area a
+{ background-image: url("../../../../img/menu_thumbnail/menu_thumb_04.jpg");}
+.new_menu li:nth-child(3) .new_img_area a
+{ background-image: url("../../../../img/menu_thumbnail/menu_thumb_05.jpg");}
+
+.new_btn { position: absolute; top:48%; left:0; right:0;
+  z-index:10;}
+.new_btn button { width:20px; height:20px;}
+  .next_btn { float:right;}
+  .prev_btn { float:left;}
+
+.new_indi { position:absolute; top:470px; right:0; left:0;
   width:120px; height:auto; margin:auto;}
 .new_indi li { float:left; width:10px; height:10px; margin: 0 15px;}
 .new_indi a { position: relative; border-radius:5px;

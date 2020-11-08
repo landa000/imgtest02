@@ -1,21 +1,25 @@
 /* twosome_main_viewBox.css */
 
-#viewBox { width:100%; min-width:1260px; height:855px;
+#viewBox { width:100%; height:855px;
   position:relative; padding-top:75px; box-sizing:border-box;
   background-color: #dfd;}
 
 .view_btn { position:absolute;}
 
+
+
 .view_indi { position:absolute; top:800px; right:0; left:0; z-index:400;
-    width:312px; height:auto; margin:auto;}
-.view_indi li { float:left; width:18px; height:18px; margin: 0 20px;
+    width:193px; height:auto; margin:auto;}
+.view_indi li { float:left; width:18px; height:18px; margin-right:40px;
   border-radius:9px; background-color: #bbb;}
+.view_indi li:last-child { margin-right:0;} 
 
 .view_outer { position:relative;
-  width:100%; height:780px; margin:auto;
+  width:100%; min-width:960px; height:780px; margin:auto;
   overflow:hidden;}
 .view_area { width:450%; height:100%;}
-.view_area > li { float:left; width:1920px; height:780px; margin:auto;}
+.view_area > li { float:left; width:1920px; height:100%; margin:auto;}
+.view_area > li a { width:100%; height:100%;}
 .view_area:nth-child(1) li a { background-repeat: no-repeat;
-  background-size: auto; background-position: 0 0;
+  background-size:cover; background-position-x: -100px;
   background-image: url("../../../../img/main_view/view_01.png");}

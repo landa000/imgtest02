@@ -1,10 +1,10 @@
-/* twosome_menu_categoryBox.css */
+/* twosome_brand_categoryBox.css */
 
 #categoryBox { position:relative; width:100%; height:auto;}
 
-.category_wrap { width:960px; height:auto; margin:auto;
+.category_wrap { width:470px; height:auto; margin:auto;
   padding-top:21px; box-sizing: border-box; }
-.cate_list { width:100%; height:auto;}
+.cate_list { width:100%; height:auto; margin:auto;}
 .cate_list li { float:left; width:150px; height:100%;   margin-bottom:21px;
   border-right:1.5px solid #bbb; color:#000;}
 .cate_list li a { display:block; padding-top:10px; box-sizing: border-box;

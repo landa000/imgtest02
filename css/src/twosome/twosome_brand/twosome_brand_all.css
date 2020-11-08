@@ -1,0 +1,7 @@
+/* twosome_brand_all.css */
+
+@import url("../twosome_main/twosome_main_headBox.css");
+@import url("./twosome_brand_viewBox.css");
+@import url("./twosome_brand_categoryBox.css");
+@import url("./twosome_brand_BrandBox.css");
+@import url("../twosome_main/twosome_main_footBox.css");

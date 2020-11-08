@@ -1,5 +1,13 @@
-#viewBox { width:100%; height:auto; padding-top:75px;
-  box-sizing: border-box; background-color: #3ff;}
+#viewBox { position:relative; z-index:1;
+  width:100%; height:auto; padding-top:75px;
+  background-color: #fff;
+  box-sizing: border-box; background-repeat: no-repeat;
+  background-size: 100%; background-position: 0 -100px;
+  background-image: url(../../../../img/menu_view_bg.jpg);}
+#viewBox::after { content:" ";
+  position: absolute; top:0; left:0; z-index:-1; opacity:0.65;
+  width:100%; height: 100%; background-color:#fff;}
+  
 
 .view_wrap { position:relative; width:960px; height:270px; margin:auto;} 
 .view_wrap h1 { position:absolute; top:100px;

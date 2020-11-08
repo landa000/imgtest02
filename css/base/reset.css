@@ -21,7 +21,7 @@ a { text-decoration:none;}
 button { background-color: transparent; cursor: pointer; }
 hr { border:0; margin: 0; border-bottom:1px solid #333;}
 
-a:hover, a:focus, button:hover, button:focus { position:relative; z-index:500; }
+/* a:hover, a:focus, button:hover, button:focus { position:relative } */
 /* outline:3px solid #f70; */
 
 /* form */

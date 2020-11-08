@@ -41,16 +41,19 @@
 
 
     <section id="viewBox">
+      <h2 class="hidden_context">
+        광고영역
+      </h2>
       <div class="view_btn">
         <button type="button"></button>
         <button type="button"></button>
       </div>
-      <div class="view_indi hidden_wrap">
+      <ul class="view_indi hidden_wrap">
         <li><a href=""><span>view_indi_01</span></a></li>
         <li><a href=""><span>view_indi_02</span></a></li>
         <li><a href=""><span>view_indi_03</span></a></li>
         <li><a href=""><span>view_indi_04</span></a></li>
-      </div>
+      </ul>
       <div class="view_outer">
         <ul class="view_area hidden_wrap">
           <li><a href=""><span>view_01</span></a></li>
@@ -63,19 +66,29 @@
     </section><!-- ================================== -->
 
     <article id="newBox">
+      <h3 class="hidden_context">
+        신메뉴
+      </h2>
     <div class="newBox_wrap clearfix">
-      <div class="new_title">
-       <h2>NEW ARRIVALS</h2> 
+       <h2>NEW ARRIVALS</h2>
+      <div class="new_btn hidden_wrap">
+        <button type="button" class="next_btn"><span>next</span></button>
+        <button type="button" class="prev_btn"><span>prev</span></button>
       </div>
-      <div class="new_btn">
-        <button></button>
-        <button></button>
-      </div>
-      <div class="new_menu">
+      <div class="new_menu hidden_wrap">
         <ul>
-         <li>new_01</li>
-         <li>new_02</li>
-         <li>new_03</li>
+         <li>
+           <div class="new_img_area"><a href="./menu.html"><span>new_img_01</span></a></div>
+           <span class="hidden_context">new_01</span>
+          </li>
+         <li>
+           <div class="new_img_area"><a href="./menu.html"><span>new_img_02</span></a></div>
+           <span class="hidden_context">new_02</span>
+          </li>
+         <li>
+           <div class="new_img_area"><a href="./menu.html"><span>new_img_03</span></a></div>
+           <span class="hidden_context">new_03</span>
+          </li>
         </ul>
       </div>
       <div class="new_indi hidden_wrap">
@@ -94,10 +107,16 @@
 
 
     <aside id="submenuBox">
+      <h2 class="hidden_context">
+        서브메뉴
+      </h2>
       <ul class="sub_wrap">
         <li class="sub_01">
           <div class="sub_icon_area_01">
-            <span class="hidden_context">icon_event</span>
+            <a href="#">
+              <img src="../img/svg_mainIcon/icon-02.svg" alt="icon_event">
+              <span class="hidden_context">icon_event</span>
+            </a>
           </div>
           <h3>이벤트</h3>
           <p>투썸플레이스의 이벤트를 확인해보세요!</p>
@@ -105,22 +124,31 @@
             <span class="hidden_context">event</span>
           </a>
         </li>
-        <li class="sub_02">
-          <div class="sub_icon_area_02">
-            <span class="hidden_context">icon_notice</span>
+        <li class="sub_02">       
+        <div class="sub_icon_area_02">
+          <a href="./notice.html">
+            <img src="../img/svg_mainIcon/icon-04.svg" alt="icon_notice"> 
+              <span class="hidden_context">icon_notice</span>          
+            </a>
           </div>
-          <h3>공지사항</h3>
-          <p>투썸플레이스의 새로운 소식을 확인해보세요!</p>
-          <a href="#">
-            <span class="hidden_context">notice</span>
-          </a>
+          <div class="sub_text_wrap">
+            <h3>공지사항</h3>
+            <p>투썸플레이스의 새로운 소식을 확인해보세요!</p>
+          </div>
+          <a href="./notice.html">
+              <span class="hidden_context">notice</span>
+            </a>
         </li>
         <li class="sub_02">
           <div class="sub_icon_area_02">
-            <span class="hidden_context">icon_shop</span>
+            <a href="#">
+            <img src="../img/svg_mainIcon/icon-03.svg" alt="icon_shop">
+              <span class="hidden_context">icon_shop</span></a>
           </div>
-          <h3>매장검색</h3>
-          <p>전국 각지의 매장을 검색해보세요.</p>
+          <div class="sub_text_wrap">
+            <h3>매장검색</h3>
+            <p>전국 각지의 매장을 검색해보세요.</p>
+          </div>
           <a href="#">
             <span class="hidden_context">find_shop</span>
           </a>
@@ -129,6 +157,9 @@
     </aside><!-- ================================== -->
 
     <div id="appBox">
+      <h3 class="hidden_context">
+        투썸플레이스 앱
+      </h3>
       <div class="app_wrap">
         <div class="app_img_area"><a href=""><span class="hidden_context">img</span></a></div>
         <div class="app_text_area">
@@ -144,29 +175,34 @@
     </div><!-- ================================== -->
 
     <div id="snsBox">
+      <h2 class="hidden_context">
+        투썸플레이스 공식 인스타그램
+      </h2>
       <div class="sns_wrap">
         <h2>Official Instagram
         </h2>
+        <div class="sns_btn">
+          <a href="https://www.instagram.com/atwosomeplace_official/" target="_blank">
+          more view</a>
+        </div>
         <ul class="sns_img_area">
           <li>
-            <a href=""><span class="hidden_context">img_01</span></a>
+            <a href="#"><span class="hidden_context">img_01</span></a>
           </li>
           <li>
-            <a href=""><span class="hidden_context">img_02</span></a>
+            <a href="#"><span class="hidden_context">img_02</span></a>
           </li>
           <li>
-            <a href=""><span class="hidden_context">img_03</span></a>
+            <a href="#"><span class="hidden_context">img_03</span></a>
           </li>
           <li>
-            <a href=""><span class="hidden_context">img_04</span></a>
+            <a href="#"><span class="hidden_context">img_04</span></a>
           </li>
           <li>
-            <a href=""><span class="hidden_context">img_05</span></a>
+            <a href="#"><span class="hidden_context">img_05</span></a>
           </li>
         </ul>
-        <a class="sns_link" href="https://www.instagram.com/atwosomeplace_official/" target="_blank">
-        more view
-        </a>
+
       </div>
     </div><!-- ================================== -->
 
