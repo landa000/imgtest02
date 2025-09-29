@@ -2,8 +2,8 @@
 
 :root { --color-yellow :#cea462; --color-indigo :#2a2f43; --color-black : #202020; --base-width: 1600px; --base-width-02: 1440px; --base-width-m: calc(100vw - 60px); --m-font-01:36px; --m-font-02: 24px; --m-font-03: 16px; } 
 
-#test { width: 100%; max-width: 860px; margin: auto; overflow: hidden; display: flex; flex-direction: column; align-items: center; } 
-#test > .img-container { width:100%; height:auto; min-width: 240px; position:relative; top:0; display: flex; flex-direction: column;}
+#test { width: 100%; margin: auto; overflow: hidden; display: flex; flex-direction: column; align-items: center; } 
+#test > .img-container {  width:100%; max-width: 860px; min-width: 240px;  height:auto; position:relative; top:0; display: flex; flex-direction: column;}
 #test > .img-container > img { width:100%; }
 #test > .img-container.con-01 { } 
 #test > .img-container.con-02 { position:absolute; top:0; z-index:-1; display:none; } 
