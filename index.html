@@ -22,16 +22,28 @@
   <div id="container">
     <header id="header">
     </header>
-    <div class="button page-toggle">
-      <button type="button">
-        <p>페이지 전환</p>
-      </button>
-    </div>
-    <div class="button page-top">
+    <div class="btn-container">
+          <div class="button page-top">
       <a href="#header">
         <i class="fas fa-arrow-up"></i>
         <span class="hidden-text">상단으로 가기</span>
       </a>
+    </div>
+      <div class="button page-toggle toggle-01">
+        <button type="button">
+          <p>레몬즙 전환</p>
+        </button>
+      </div>
+      <div class="button page-toggle toggle-02">
+        <button type="button">
+          <p>올리브 전환</p>
+        </button>
+      </div>
+      <div class="button page-toggle toggle-03">
+        <button type="button">
+          <p>토마토 전환</p>
+        </button>
+      </div>
     </div>
     <div id="test">
       <div class="img-container con-01">
@@ -58,6 +70,9 @@
         <img src="./img/olive/16_QnA.jpg" alt="유기농 엑스트라버진 올리브오일 시안" />
         <img src="./img/olive/17_제품상세정보.jpg" alt="유기농 엑스트라버진 올리브오일 시안" />
       </div>
+      <div class="img-container con-03">
+        <img src="./img/tomato/260304_tomato.jpg" alt="데이슬로우 토마토즙 시안" />
+      </div>
     </div>
     <footer id="footer">
     </footer>
@@ -69,9 +84,24 @@
       let toggleBtn = $(".page-toggle");
       let con01 = $(".con-01");
       let con02 = $(".con-02");
-      toggleBtn.click(function () {
-        con01.toggle();
-        con02.toggle();
+      let con03 = $(".con-03");
+      let toggle01 = $(".toggle-01");
+      let toggle02 = $(".toggle-02");
+      let toggle03 = $(".toggle-03");
+      toggle01.click(function () {
+        con01.show();
+        con02.hide();
+        con03.hide();
+      });
+      toggle02.click(function () {
+        con01.hide();
+        con02.show();
+        con03.hide();
+      });
+      toggle03.click(function () {
+        con01.hide();
+        con02.hide();
+        con03.show();
       });
     });
   </script>
