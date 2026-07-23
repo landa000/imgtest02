@@ -9,7 +9,9 @@ section { overflow: hidden; }
 #test > .img-container {  width:100%; max-width: 860px; min-width: 240px;  height:auto; position:relative; top:0; display: flex; flex-direction: column;}
 #test > .img-container > img { width:100%; }
 #test > .img-container.con-01 { } 
-#test > .img-container.con-02 { position:absolute; top:0; z-index:-1; display:none; } 
+#test > .img-container.con-02,
+#test > .img-container.con-03,
+#test > .img-container.con-04 { position:absolute; top:0; z-index:-1; display:none; }
 
 .btn-container { position:fixed; display: flex; flex-direction: row-reverse; padding-right:4vw; bottom:4vw; right:0; width:100%; height:auto; z-index:100; }
 .button { width:66px; height:50px; z-index:100; margin-left:1.2vw;}
